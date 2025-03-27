@@ -6,7 +6,6 @@
 #
 ---
 include:
-include:
   - board: seeeduino_xiao_ble
     shield: enki42_dongle dongle_display
   - board: nice_nano_v2
