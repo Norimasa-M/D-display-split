@@ -18,3 +18,5 @@
         events = <0>;
     };
 };
+
+/delete-node/ &default_kscan;
