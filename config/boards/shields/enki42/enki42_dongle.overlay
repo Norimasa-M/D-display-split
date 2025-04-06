@@ -19,4 +19,4 @@
     };
 };
 
-/delete-node/ &default_kscan;
+&default_kscan;
