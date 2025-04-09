@@ -1,6 +1,6 @@
 file_format: "1"
-id: cygnus
-name: Cygnus
+id: redox
+name: Redox
 type: shield
 url:
 requires:
@@ -9,5 +9,5 @@ exposes:
 features:
   - keys
 siblings:
-  - cygnus_left
-  - cygnus_right
+  - redox_left
+  - redox_right
