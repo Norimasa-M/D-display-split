@@ -1,0 +1,380 @@
+layout: {zmk_keyboard: redox}
+layers:
+  default:
+  - {t: '`', h: '~'}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BSPC
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - {t: lower, h: toggle}
+  - {t: raise, h: toggle}
+  - Y
+  - U
+  - I
+  - O
+  - {t: P, h: Sft+Gui+V}
+  - {t: '-', h: _}
+  - CAPSLOCK
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LEFT SHIFT}
+  - G
+  - {t: adjust, h: toggle}
+  - {t: mouse, h: toggle}
+  - H
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RIGHT CONTROL}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: ':'}
+  - {t: '''', h: '"'}
+  - {t: ENTER, h: LEFT SHIFT}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: '[', h: '{'}
+  - {t: \, h: '|'}
+  - {t: '=', h: +}
+  - {t: ']', h: '}'}
+  - N
+  - M
+  - {t: ',', h: <}
+  - {t: ., h: '>'}
+  - {t: /, h: '?'}
+  - {t: RET, h: RSHFT}
+  - LEFT SHIFT
+  - END
+  - HOME
+  - LEFT CONTROL
+  - {t: BACKSPACE, h: lower}
+  - {t: TAB, h: adjust}
+  - {t: SPACE, h: raise}
+  - {t: SPACE, h: raise}
+  - {t: ENTER, h: adjust}
+  - {t: BACKSPACE, h: mouse}
+  - RIGHT CONTROL
+  - PAGE UP
+  - PAGE DOWN
+  - RIGHT SHIFT
+  lower:
+  - '&dongle_bootload_macro'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - MUTE
+  - {t: default, h: toggle}
+  - {t: raise, h: toggle}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN ARROW
+  - RIGHT ARROW
+  - VOLUME UP
+  - {t: adjust, h: toggle}
+  - {t: mouse, h: toggle}
+  - BRI UP
+  - BT CLR
+  - BT PRV
+  - BT NXT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - OUT TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOLUME DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BRIGHTNESS DEC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  raise:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - {t: lower, h: toggle}
+  - {t: default, h: toggle}
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - DEL
+  - {t: ▽, type: trans}
+  - ESCAPE
+  - CAPS
+  - HOME
+  - END
+  - _
+  - {t: adjust, h: toggle}
+  - {t: mouse, h: toggle}
+  - '-'
+  - PG UP
+  - PSCRN
+  - UP
+  - '`'
+  - '~'
+  - {t: ▽, type: trans}
+  - DELETE
+  - LGUI
+  - (
+  - )
+  - '~'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '`'
+  - PG DN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - RET
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  adjust:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - {t: lower, h: toggle}
+  - {t: raise, h: toggle}
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - OUT TOG
+  - {t: ▽, type: trans}
+  - Gui+A
+  - Gui+S
+  - Gui+D
+  - Gui+F
+  - '['
+  - {t: default, h: toggle}
+  - {t: mouse, h: toggle}
+  - ']'
+  - RIGHT SHIFT
+  - FIND
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - '{'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '}'
+  - F13
+  - F14
+  - F15
+  - F16
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  mouse:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_UP'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_DOWN'
+  - {t: ▽, type: trans}
+  - {t: lower, h: toggle}
+  - {t: raise, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: adjust, h: toggle}
+  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [0, 1]
+  k: ESC
+- p: [15, 16]
+  k: '['
+- p: [21, 22]
+  k: ']'
+- p: [29, 30]
+  k: (
+- p: [35, 36]
+  k: )
+- p: [43, 44]
+  k: '{'
+- p: [51, 52]
+  k: '}'
+- p: [16, 21]
+  k: \
+- p: [30, 35]
+  k: '|'
+- p: [28, 29]
+  k: +
+- p: [37, 36]
+  k: '='
