@@ -1,12 +1,18 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/petejohanson
+      url-base: https://github.com/zmkfirmware
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
+      
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: feat/pointers-with-input-processors
+      revision: main
       import: app/west.yml
+    - name: zmk-dongle-display-view
+      remote: mctechnology17
+      revision: main      
+
   self:
     path: config
-    
