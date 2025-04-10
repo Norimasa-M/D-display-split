@@ -1,14 +1,18 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/petejohanson
-    - name: inorichi
-      url-base: https://github.com/inorichi
+      url-base: https://github.com/zmkfirmware
+    - name: Garrett Faucher
+      url-base: https://github.com/GarrettFaucher
+      
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: feat/pointers-move-scroll
+      revision: main
       import: app/west.yml
+    - name: zmk-dongle-display-091-oled
+      remote: Garrett Faucher
+      revision: main      
+
   self:
     path: config
-    
