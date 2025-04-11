@@ -5,11 +5,20 @@
  */
 #include <dt-bindings/zmk/matrix_transform.h>
 
+#include <layouts/common/ortho_4x12/all1u.dtsi>
+
+
+&layout_ortho_4x12_all1u {
+    transform = <&default_transform>;
+};
+
+
 / {
     chosen {
-        zmk,kscan = &mock_kscan;
-        zmk,matrix-transform = &default_transform;
         zephyr,display = &oled;
+        zmk,kscan = &mock_kscan;
+        zmk,physical-layout = &layout_ortho_4x12_all1u;
+        
     };
 
 	default_transform: keymap_transform_0 {
