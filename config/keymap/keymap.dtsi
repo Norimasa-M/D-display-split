@@ -53,62 +53,62 @@
 
         default_layer {
             display-name = "DEF";
-            bindings = <LAYER_FROM34( \
+            bindings = <
    &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
    &kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
    &kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
    &kp LSHFT  &trans    &trans &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT  &kp LSHFT  &trans    &trans
-            )>;
+            >;
         };
 
         navigation_layer {
             display-name = "NAV";
-            bindings = <LAYER_FROM34( \
+            bindings = <
    &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
    &kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
    &kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
    &kp LSHFT  &trans    &trans &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT  &kp LSHFT  &trans    &trans
-            )>;
+            >;
         };
 
         number_layer {
             display-name = "NUM";
-            bindings = <LAYER_FROM34( \
+            bindings = <
    &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
    &kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
    &kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
    &kp LSHFT  &trans    &trans &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT  &kp LSHFT  &trans    &trans
-            )>;
+            >;
         };
 
         function_layer {
             display-name = "FUN";
-            bindings = <LAYER_FROM34( \
+            bindings = <
    &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
    &kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
    &kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
    &kp LSHFT  &trans    &trans &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT  &kp LSHFT  &trans    &trans
-            )>;
+            >;
         }; 
 
         international_layer {
             display-name = "INT";
-            bindings = <LAYER_FROM34( \
+            bindings = <
    &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
    &kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
    &kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
    &kp LSHFT  &trans    &trans &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT  &kp LSHFT  &trans    &trans
-            )>;
+            >;
         };
 
         mouse_layer {
             display-name = "MSE";
-            bindings = <LAYER_FROM34( \
+            bindings = <
    &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
    &kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
    &kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
    &kp LSHFT  &trans    &trans &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT  &kp LSHFT  &trans    &trans
-            )>;
+            >;
         };
 
         extra1 {
